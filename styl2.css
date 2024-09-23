@@ -1,0 +1,11 @@
+h1{
+    text-align: center;
+    background-color: red;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+}
+h3 mark{
+    background-color: blue;
+}

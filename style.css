@@ -1,0 +1,110 @@
+header{
+    display: flex;
+    justify-content: space-around;
+}
+header .mol{
+    width: 100%;
+    height: 70px;
+    border: 2px solid greenyellow;
+    background-color: yellow;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+header a{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+}
+header a div{
+    width: 85%;
+    height: 50px;
+    border-radius: 20px;
+    background-color: gold;
+}
+h1{
+    color: rgb(255, 0, 0);
+    border: 2px solid red;
+    border-radius: 20px;
+    text-align: center;
+    background-color: aqua;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+body{
+    background-color: cornflowerblue;
+}
+.on{
+    display: flex;
+    justify-content: space-around;
+}
+.on a {
+    text-decoration: none;
+    color: red;
+    font-size: 25px;
+}
+.on a div{
+    width: 250px;
+    height: 40px;
+    background-color: black;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+a div:hover{
+    border:5px solid red;
+    background-color: blue;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+a div:active{
+    border: 5px solid;
+    background-color: greenyellow;
+    color: darkmagenta;
+}
+.on:hover{
+    color: khaki;
+    background-color: lawngreen;
+}
+.bot{
+    width: 80%;
+    height: 300px;
+    background-image: url(./bekraunt\ fon.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.mol{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+}
+.toqiz{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.toqiz div{
+    width: 300px;
+    height: 300px;
+    border: 2px solid;
+    margin-top: 100px;
+    
+}
+.on{
+    position: sticky;
+    top: 20px;
+}
+
+  
